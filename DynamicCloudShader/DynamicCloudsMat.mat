@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2367940606788747242
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DynamicCloudsMat
+  m_Shader: {fileID: -6465566751694194690, guid: 26f5ad4dc4764c2428b507a7581b99d6, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_0aee599801f14cbaaca8ad2c9ad64e95: 0.1
+    - Vector1_1: 8
+    - Vector1_25136a99f76241d5bc45a9efc99b12f7: 15
+    - Vector1_2e61e7aca9034372b8126af13c32942d: 50
+    - Vector1_90fed66501a84e7aa4a4eb7c2b7f72c1: 0.15
+    - Vector1_a096791fb3444b999300dda9b6d7fa65: 0
+    - Vector1_a176138f6c814fc187c2ef4d28c51b52: 0.8
+    - Vector1_d70fc820dfab47b1bf0961336316bca4: 0.6
+    - Vector1_d937d60b95d94571aa1013baa4837bca: 4.78
+    - _Float: 28.5
+    - _Float_1: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _cloudOverlayStrength: 0
+    - _downVisibility: 150
+    m_Colors:
+    - Color_096f9006d5e44b93bf17920221eed794: {r: 1, g: 1, b: 1, a: 0}
+    - Color_5526cd2189f74fb2a03bf391b945094b: {r: 0.42986828, g: 0.6609662, b: 0.7924528, a: 0}
+    - Vector2_50c41e9e8f6b4f5dab13777c69bab8da: {r: 0, g: 0.1, b: 0, a: 0}
+    - Vector2_8935b9063f3e475ab50ce5dc85bfe4af: {r: 0.5, g: 0.1, b: 0, a: 0}
+    - Vector3_3d95e86a75894b62b1846cd3a46b7538: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
